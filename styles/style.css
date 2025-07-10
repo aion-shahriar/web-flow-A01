@@ -71,3 +71,10 @@ nav {
     font-size: 65px;
     font-weight: bold;
 }
+
+/* Action styles */
+
+.action-container {
+    display: flex;
+    justify-content: space-around;
+}
