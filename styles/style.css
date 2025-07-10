@@ -30,6 +30,10 @@
     font-weight: 600;
 }
 
+.center {
+    text-align: center;
+}
+
 
 /* Hero section styles */
 
@@ -77,4 +81,43 @@ nav {
 .action-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
+
+#conf-img {
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+
+/* user styles */
+
+.user-container {
+    background-color: rgba(78,71,255,0.1);
+    border: none;
+    border-radius: 10px;
+}
+
+.stats {
+    display: flex;
+    gap: 160px;
+}
+
+.stats h2 {
+    font-weight: bold;
+    font-size: 80px;
+}
+
+
+/* review styles */
+
+
+
+/* focus styles */
+
+
+/* form styles */
+
+
+/* footer styles */
+
