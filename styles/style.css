@@ -94,6 +94,9 @@ nav {
 #conf-img {
     border-radius: 48px;
 }
+.action-content p {
+    text-shadow: 0 4px 4px rgba(0,0,0,0.25);
+}
 
 
 /* user styles */
@@ -256,21 +259,29 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top:100px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-logo {
     font-size: 100px;
     font-weight:bolder;
     margin-bottom: 0;
+    text-align:center;
 }
 footer a {
     text-decoration: none;
     color: rgba(137,135,161,1);
     padding-right: 50px;
 }
-footer p {
-    
+.footer-content-container p {
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0,0,0,0.25);
+}
+
+.links-container {
+    padding-left: 10px;
+    padding-top:20px;
 }
 
