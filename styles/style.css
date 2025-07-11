@@ -1,7 +1,7 @@
 * {
     /* padding: 0;
     margin: 0; */
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif; 
 }
 
 /* shared styles */
@@ -32,6 +32,10 @@
 
 .center {
     text-align: center;
+}
+
+.bg-color {
+    background-color: rgba(245,248,255,1);
 }
 
 
@@ -147,7 +151,20 @@ nav {
 /* focus styles */
 
 .focus-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1140px;
+    height: 700px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 150px;
 
+}
+.focus-container h2 {
+    font-weight:bold;
+    font-size: 50px;
+    margin-bottom: 0;
 }
 
 .focus-content {
@@ -160,9 +177,65 @@ nav {
     border-radius:48px;
 }
 
+.focus-content button {
+    margin-bottom:  20px;
+}
+
 
 /* form styles */
 
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+    width: 1140px;
+    height: 630px;
+    margin-left: 150px;
+}
+.form-header{
+    font-weight: bold;
+    font-size:100px;
+}
+#name, #email, #message, .form-btn {
+    height: 70px;
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.form-btn {
+    height: 60px;
+}
+#message {
+    height: 135px;
+}
+
 
 /* footer styles */
+
+footer {
+    color: rgba(137,135,161,1);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+
+.footer-logo {
+    font-size: 100px;
+    font-weight:bolder;
+    margin-bottom: 0;
+}
+footer a {
+    text-decoration: none;
+    color: rgba(137,135,161,1);
+    padding-right: 50px;
+}
+footer p {
+    
+}
 
